@@ -1,33 +1,38 @@
-// import Mers from "../src/assets/img/Mers.jpg"
-// import Bmw from "../src/assets/img/Bmw.jpg"
-// import Camry from "../src/assets/img/Camry.jpg"
-// import Priora from "../src/assets/img/Priora.jpg"
-// import Zeekr from "../src/assets/img/Zeekr.jpg"
+import Mers from "../src/assets/img/Mers.jpg"
+import Bmw from "../src/assets/img/Bmw.jpg"
+import Camry from "../src/assets/img/Camry.jpg"
+import Priora from "../src/assets/img/Priora.jpg"
+import Zeekr from "../src/assets/img/Zeekr.jpg"
 
 
 
 let cars = [
   {
+    img: <img className="img" src={Mers}></img>,
     model: 'Mers',
     price: 5600000,
     amout: 3
   },
   {
+    img: <img className="img" src={Bmw}></img>,
     model: 'BMW',
     price: 6400000,
     amout: 10
   },
   {
+    img: <img className="img" src={Camry}></img>,
     model: 'Camry',
     price: 5100000,
     amout: 16
   },
   {
+    img: <img className="img" src={Priora}></img>,
     model: 'Priora',
     price: 1600000,
     amout: 6
   },
   {
+    img: <img className="img" src={Zeekr}></img>,
     model: 'Zeekr001',
     price: 5600000,
     amout: 12
@@ -137,10 +142,11 @@ function App() {
           carsPrice.map(car =>{
 
             return (
-              <div className="flex border rounden-lg border-slate-700">
+              <div className="border rounded-lg border-slate-700 grid gap-4 grid-cols-2">
                 <p className="p-3">Model:{car.model}</p>
                 <p className="p-3">Price:{car.price}</p>
                 <p className="p-3">Аmout:{car.amout}</p>
+                <p className="p-3">img:{car.img}</p>
               </div>
             )
 
