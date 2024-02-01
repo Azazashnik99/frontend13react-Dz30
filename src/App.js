@@ -8,31 +8,31 @@ import Zeekr from "../src/assets/img/Zeekr.jpg"
 
 let cars = [
   {
-    img: <img className="img" src={Mers}></img>,
+    img: <img className="img" src={Mers}/>,
     model: 'Mers',
     price: 5600000,
     amout: 3
   },
   {
-    img: <img className="img" src={Bmw}></img>,
+    img: <img className="img" src={Bmw}/>,
     model: 'BMW',
     price: 6400000,
     amout: 10
   },
   {
-    img: <img className="img" src={Camry}></img>,
+    img: <img className="img" src={Camry}/>,
     model: 'Camry',
     price: 5100000,
     amout: 16
   },
   {
-    img: <img className="img" src={Priora}></img>,
+    img: <img className="img" src={Priora}/>,
     model: 'Priora',
     price: 1600000,
     amout: 6
   },
   {
-    img: <img className="img" src={Zeekr}></img>,
+    img: <img className="img" src={Zeekr}/>,
     model: 'Zeekr001',
     price: 5600000,
     amout: 12
